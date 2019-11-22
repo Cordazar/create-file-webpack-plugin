@@ -1,9 +1,9 @@
 'use strict';
 
-module.exports = class CreateFilePlugin {
-  write = require('write');
-  path = require('path');
+const write = require('write');
+const path = require('path');
 
+module.exports = class CreateFilePlugin {
   constructor(options) {
     if (!options) {
       throw new Error(`Please provide 'options' for the CreateFilePlugin config`);
@@ -26,9 +26,9 @@ module.exports = class CreateFilePlugin {
   }
 
   _createFile({ filePath, fileName, content }, compilation) {
-    const fullPath = this.path.join(filePath, fileName);
+    const fullPath = path.join(filePath, fileName);
     const contentData = typeof content === 'function' ? content({ filePath, fileName, compilation }) : content;
-    this.write.sync(fullPath, contentData);
+    write.sync(fullPath, contentData);
   }
 
   apply(compiler) {

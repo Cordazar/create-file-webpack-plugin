@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install create-file-webpack-plugin
+$ npm install create-file-webpack-plugin --save-dev
 ```
 
 

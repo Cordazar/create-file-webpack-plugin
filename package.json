@@ -1,0 +1,38 @@
+{
+  "name": "create-file-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Webpack plugin for creating a file with static or dynamic content",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cordazar/create-file-webpack-plugin.git"
+  },
+  "author": {
+    "name": "Ricard Fredin",
+    "email": "ricard@opendia.se",
+    "url": "https://github.com/cordazar"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-plugin",
+    "create",
+    "file",
+    "make",
+    "generate",
+    "add"
+  ],
+  "bugs": {
+    "url": "https://github.com/Cordazar/create-file-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/Cordazar/create-file-webpack-plugin#readme",
+  "peerDependencies": {
+    "webpack": ">=4"
+  }
+}

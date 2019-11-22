@@ -1,6 +1,6 @@
 {
   "name": "create-file-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Webpack plugin for creating a file with static or dynamic content",
   "license": "MIT",
   "repository": {

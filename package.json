@@ -32,6 +32,9 @@
     "url": "https://github.com/Cordazar/create-file-webpack-plugin/issues"
   },
   "homepage": "https://github.com/Cordazar/create-file-webpack-plugin#readme",
+  "dependencies": {
+    "write": "^2.0.0"
+  },
   "peerDependencies": {
     "webpack": ">=4"
   }
